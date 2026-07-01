@@ -9,3 +9,8 @@ print(f"prop1: {prop1}, prop2: {prop2}")
 print(prop1 + prop2)
 
 ## test
+
+test = input("how old?")
+testInt = int(test);
+isEven = testInt % 2 == 0
+print(f"IsEven:{isEven}")  
